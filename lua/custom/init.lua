@@ -15,6 +15,8 @@ require('lazy').setup({
   require 'custom/plugins/treesitter',
   require 'custom/plugins/themes',
   require 'custom/plugins/todo',
+  require 'custom/plugins/mini',
+  require 'custom/plugins/which-key',
 
   'tpope/vim-sleuth',
 }, {
