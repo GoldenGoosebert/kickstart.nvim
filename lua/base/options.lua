@@ -17,6 +17,10 @@ vim.g.mapleader = ' '
 vim.opt.number = true
 vim.opt.mouse = 'a'
 vim.opt.confirm = true
+vim.o.tabstop = 2
+vim.o.softtabstop = 2
+vim.o.expandtab = true
+vim.o.shiftwidth = 2
 
 vim.opt.showmode = false
 vim.opt.breakindent = true
@@ -39,7 +43,7 @@ vim.opt.timeoutlen = 300
 
 -- Whitespace chars
 vim.opt.list = true
-vim.opt.listchars = { tab = '.. ', trail = '.', nbsp = '.' }
+vim.opt.listchars = { tab = '__', trail = '.', nbsp = '.' }
 
 -- Splits
 vim.opt.splitright = true
