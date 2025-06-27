@@ -8,7 +8,8 @@ require('lazy').setup({
   require 'custom/plugins/telescope',
   require 'custom/plugins/todo',
   require 'custom/plugins/lsp',
-  require 'custom/plugins/treesitter'
+  require 'custom/plugins/treesitter',
+  require 'custom/plugins/bufferline'
 
 }, {
   ui = {
