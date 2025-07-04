@@ -9,8 +9,9 @@ require('lazy').setup({
   require 'custom/plugins/todo',
   require 'custom/plugins/lsp',
   require 'custom/plugins/treesitter',
-  require 'custom/plugins/bufferline'
-
+  require 'custom/plugins/bufferline',
+  require 'custom/plugins/nvim-dashboard',
+  require 'custom/plugins/nvim-icons'
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {
