@@ -1,8 +1,8 @@
 return {
-  'thesimonho/kanagawa-paper.nvim',
+  'AlphaTechnolog/pywal.nvim',
   priority = 1000,
   init = function()
-    vim.cmd.colorscheme 'kanagawa-paper-ink'
+    vim.cmd.colorscheme 'pywal'
     vim.cmd.hi 'Comment gui=none'
   end,
 }

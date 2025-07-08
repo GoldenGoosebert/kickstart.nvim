@@ -4,7 +4,7 @@ require('lazy').setup({
 
   require 'custom/plugins/themes',
   require 'custom/plugins/flutter-tools',
-  require 'custom/plugins/mini',
+  require 'custom/plugins/nvim-lualine',
   require 'custom/plugins/telescope',
   require 'custom/plugins/todo',
   require 'custom/plugins/lsp',
