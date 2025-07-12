@@ -1,8 +1,7 @@
 return {
-  'AlphaTechnolog/pywal.nvim',
+  'sainnhe/everforest',
   priority = 1000,
-  init = function()
-    vim.cmd.colorscheme 'pywal'
-    vim.cmd.hi 'Comment gui=none'
+  config = function()
+    vim.cmd.colorscheme 'everforest'
   end,
 }
