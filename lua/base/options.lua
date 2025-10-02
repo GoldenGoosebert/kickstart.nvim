@@ -15,6 +15,7 @@ vim.g.mapleader = ' '
 
 -- General
 vim.opt.number = true
+vim.opt.relativenumber = true
 vim.opt.mouse = 'a'
 vim.opt.confirm = true
 vim.o.tabstop = 2
