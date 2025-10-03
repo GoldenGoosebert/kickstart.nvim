@@ -10,7 +10,8 @@ require('lazy').setup({
   require 'custom/plugins/lsp',
   require 'custom/plugins/treesitter',
   require 'custom/plugins/nvim-icons',
-  require 'custom/plugins/mini-pairs'
+  require 'custom/plugins/mini-pairs',
+  require 'custom/plugins/noice'
 }, {
   ui = {
     icons = vim.g.have_nerd_font and {} or {
