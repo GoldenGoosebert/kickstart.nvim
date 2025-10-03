@@ -44,7 +44,7 @@ vim.opt.timeoutlen = 300
 
 -- Whitespace chars
 vim.opt.list = true
-vim.opt.listchars = { tab = '  ', trail = ' ', nbsp = '.' }
+vim.opt.listchars = { tab = '  ', trail = ' ', nbsp = '..' }
 
 -- Splits
 vim.opt.splitright = true
