@@ -13,8 +13,8 @@ return {
           col = "50%",
         },
         border = {
-          style = "none",
-          padding = {1, 1},
+          style = "rounded",
+          padding = {0, 1},
         },
       },
       filter_options = {},
@@ -30,8 +30,6 @@ return {
         search_up = { kind = "search", pattern = "^%?", icon = " ", lang = "regex" },
         filter = { pattern = "^:%s*!", icon = "$", lang = "bash" },
         lua = { pattern = { "^:%s*lua%s+", "^:%s*lua%s*=%s*", "^:%s*=%s*" }, icon = "", lang = "lua" },
-        help = { pattern = "^:%s*he?l?p?%s+", icon = "" },
-        input = { view = "cmdline_input", icon = "󰥻 " },
       }
   })
   end

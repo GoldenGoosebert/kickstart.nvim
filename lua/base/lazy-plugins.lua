@@ -21,6 +21,5 @@
 
 -- Setup
 require('lazy').setup {
-
   require 'lua/custom/plugins/init',
 }
