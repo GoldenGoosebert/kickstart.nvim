@@ -3,14 +3,15 @@
 require('lazy').setup({
 
   require 'custom/plugins/themes',
-  require 'custom/plugins/nvim-lualine',
+  require 'custom/plugins/lualine',
   require 'custom/plugins/telescope',
   require 'custom/plugins/todo',
   require 'custom/plugins/lsp',
   require 'custom/plugins/treesitter',
   require 'custom/plugins/nvim-icons',
   require 'custom/plugins/mini-pairs',
-  require 'custom/plugins/noice'
+  require 'custom/plugins/noice',
+  require 'custom/plugins/colorizer',
 },
  {
   ui = {
