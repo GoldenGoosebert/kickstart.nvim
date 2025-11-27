@@ -5,7 +5,7 @@ require('lazy').setup({
   require 'custom/plugins/themes',
   require 'custom/plugins/lualine',
   require 'custom/plugins/telescope',
- -- require 'custom/plugins/todo',
+  require 'custom/plugins/todo',
   require 'custom/plugins/lsp',
   require 'custom/plugins/treesitter',
   require 'custom/plugins/nvim-icons',
