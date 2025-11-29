@@ -1,6 +1,10 @@
+-- Functions for ease of use
+Mode = function(res) return res:sub(1,1) end
+
 return {
     'nvim-lualine/lualine.nvim',
     dependencies = { 'nvim-tree/nvim-web-devicons' },
+
 
 config = function()
   require('lualine').setup{
@@ -35,12 +39,12 @@ config = function()
         'ModeChanged',
       },
     }
-  },
+ },
   sections = {
-    lualine_a = {'mode'},
-    lualine_b = {'branch', 'diff', 'diagnostics'},
+    lualine_a = { {'mode', fmt = Mode} },
+    lualine_b = {'branch'},
     lualine_c = {'filename'},
-    lualine_x = {'filetype'},
+    lualine_x = {},
     lualine_y = {},
     lualine_z = {'location'}
   },
@@ -56,6 +60,6 @@ config = function()
   winbar = {},
   inactive_winbar = {},
   extensions = {}
-        }
+}
 end
 }
